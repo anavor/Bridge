@@ -44,7 +44,7 @@ h4 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 17px;
   font-weight: normal;
   color: var(--primary-color);
 }
@@ -165,7 +165,7 @@ li {
 }
 .map {
   margin-top: 20px;
-  width: 400px;
+  width: 500px;
   height: 300px;
   border: 0;
 }
@@ -188,6 +188,36 @@ li {
     margin-top: 20px;
     width: 300px;
     height: 300px;
+    border: 0;
+  }
+
+  .makeCall {
+    display: inline;
+  }
+
+  .showcontacts {
+    display: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .positioning {
+    padding-top: 100px;
+  }
+
+  .map {
+    margin-top: 20px;
+    width: 700px;
+    height: 350px;
     border: 0;
   }
 
