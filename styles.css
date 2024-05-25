@@ -39,7 +39,7 @@ h3 {
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 20px;
   padding: 10px;
   text-align: center;
 }
@@ -51,7 +51,7 @@ p {
 }
 
 p.bigger {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: normal;
   color: var(--primary-color);
 }
@@ -214,12 +214,8 @@ li {
 
 @media (min-width: 1400px) {
   h1 {
-    font-size: 60px;
+    font-size: 55px;
     text-align: center;
-  }
-
-  p {
-    font-size: 20px;
   }
 
   .positioning {
@@ -231,13 +227,5 @@ li {
     width: 700px;
     height: 350px;
     border: 0;
-  }
-
-  .makeCall {
-    display: inline;
-  }
-
-  .showcontacts {
-    display: none;
   }
 }
