@@ -79,13 +79,6 @@ a.btn:hover {
   background: var(--secondary-color);
 }
 
-div.background {
-  background-image: url("images/bg.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-
 div.bgcontacts {
   background-image: url("images/phone.jpeg");
   background-size: 100%;
@@ -218,6 +211,10 @@ li {
 
   .showcontacts {
     display: none;
+  }
+
+  .offer {
+    max-width: 340px;
   }
 }
 
