@@ -55,9 +55,10 @@ p.bigger {
   font-weight: normal;
   color: var(--primary-color);
 }
-
-a.more {
+.more {
   color: var(--link-color);
+}
+a.more {
   text-decoration: none;
   transition: all 200ms ease-in-out;
 }
@@ -77,13 +78,6 @@ a.btn {
 a.btn:hover {
   opacity: 0.9;
   background: var(--secondary-color);
-}
-
-div.bgcontacts {
-  background-image: url("images/phone.jpeg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 ul.inside {
