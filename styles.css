@@ -175,11 +175,21 @@ li {
 .right {
   text-align: right;
 }
+.menuPrice {
+  text-align: right;
+}
+
 .offer {
   max-height: 200px;
   border-color: #f65282;
   border-width: 20px;
   padding-top: 60px;
+}
+
+@media (max-width: 768px) {
+  .picDisplay {
+    display: none;
+  }
 }
 
 @media (max-width: 576px) {
